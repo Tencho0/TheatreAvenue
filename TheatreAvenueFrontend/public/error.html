@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Page Not Found</title>
+    <script>
+      import { Link } from 'react-router-dom'
+      // Redirect to the index.html file so that React can handle routing.
+      console.log(window.location.pathname)
+      //if the router has the route
+      var button = <Link to={window.location.pathname} className="header__logo"></Link>
+      button.click()
+    </script>
+  </head>
+  <body>
+    <h1>Error</h1>
+    <p>Page not found.</p>
+  </body>
+</html>

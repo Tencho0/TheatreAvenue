@@ -1,0 +1,2 @@
+#!/bin/sh
+yarn run format && yarn run lint && yarn test && git add .

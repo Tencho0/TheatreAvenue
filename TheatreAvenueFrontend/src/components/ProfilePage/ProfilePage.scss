@@ -1,0 +1,78 @@
+
+// Theatre avenue logo
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.container-profile {
+    margin-top: 80px;
+}
+
+.profileHeader {
+    color: white;
+}
+
+.profile-page {
+    background-color: #f2f2f2;
+}
+
+
+.profile-page-email {
+    cursor: not-allowed;
+    color: grey;
+}
+
+
+/* Profile container */
+.profile-container {
+    display: block;
+    background-color: #f2f2f2;
+    color: white;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    height: 100%;
+}
+
+/* Profile title */
+.profile-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Profile field container */
+.profile-field-container {
+    display: grid;
+    gap: 10px;
+}
+
+/* Profile field */
+.profile-field {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+}
+
+/* Profile label */
+.profile-label {
+    font-weight: bold;
+    width: 200px;
+    text-align: left;
+}
+
+/* Profile value */
+.profile-value {
+    text-align: center;
+}
+
+.sign__error {
+    color: red;    
+}
+
+.sign__content {
+    min-height: unset;
+    margin-top: 80px;
+}
